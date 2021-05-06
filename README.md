@@ -273,3 +273,12 @@ remote는 저장소와 관련된 명령어입니다.
 ![lightweight tag](https://user-images.githubusercontent.com/81507012/117363555-b1ea2780-aef7-11eb-8f46-1f0da7987cb9.JPG)
 ![tag show](https://user-images.githubusercontent.com/81507012/117363571-b7e00880-aef7-11eb-83d6-b73e0d7364ee.JPG)
 
+
+***
+
+
+명령어 table
+|명령어   |init|config|clone|add|commit|push|status|log|reset(reset -hard)|branch|merge|checkout|remote|pull|rebase|tag|
+|--------|-----|------|-----|---|------|----|------|---|------------------|------|-----|--------|------|----|------|---|
+|사용여부|O    |O     |O    |O  |O     |O   |O     |O  |O                 |O     |O    |O       |O     |O   |O     |O  |
+|링크
