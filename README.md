@@ -257,9 +257,19 @@ remote는 저장소와 관련된 명령어입니다.
 위 명령어를 실행하면 아래 사진과 같은 결과를 얻을 수 있습니다. (아래 사진은 HEAD ~3 명령어를 입력하여 commit 3줄)
 ![rebase i editor](https://user-images.githubusercontent.com/81507012/117362308-0db3b100-aef6-11eb-811b-554c525826d1.JPG)
 -아래로 *reword, drop* 등등 commit 앞의 pick이라는 키워드를 원하는 사항을 수행하는 키워드로 바꾸면 편집이 가능합니다.
+~~(rebase의 reword를 통해 commit 내역을 변경하고자 했으나 오류 및 충돌로 인해 editor 빠져나오기에 실패)~~
 
+#### tag
+변경사항의 내역을 commit을 통해 정리하고 저장하고 있지만 보다 중요한 commit일 경우 tag를 붙이기도 합니다. commit을 참조하기 쉽도록 붙이는 경우도 있습니다.
+1. README 파일을 로컬저장소에서 수정하고 저장한 것
+2. pull로 받은 파일을 push로 올린다는 점
+3. 위와 같은 이유로 중요하다 판단되어 tag 설정
+   
+-**tag**에는 *lightweight tag*로 이름만 명시가 가능한 것, *Annotated tag*로 이름 뿐만 아니라 설명과 이름, 날짜 정보가 포함가능한 것이 있습니다.
+    git tag //포함된 tag 조회
+    git tag tagname //lightweight tagfh tagname 붙이기 가능
 
-
-
-
+-아래 사진은 *lightweight tag*로 처음 붙인 tag라는 의미로 *v1.1* 이름의 tag를 붙인 것과 기본 명령어로 tag를 조회한 입력입니다.
+![lightweight tag](https://user-images.githubusercontent.com/81507012/117363555-b1ea2780-aef7-11eb-8f46-1f0da7987cb9.JPG)
+![tag show](https://user-images.githubusercontent.com/81507012/117363571-b7e00880-aef7-11eb-83d6-b73e0d7364ee.JPG)
 
