@@ -280,5 +280,5 @@ remote는 저장소와 관련된 명령어입니다.
 명령어 table
 |명령어 및 링크   |[linit](#init)|[config](#config)|[clone](#clone)|[add](#add)|[commit](#commit)|[push](#push)|[status](#status)|[log](#log)|[reset](#reset (reset --hard))|[branch](#branch)|[merge](#merge)|[checkout](#checkout)|[remote](#remote)|[pull](#pull)|[rebase](#rebase)|[tag](#tag)|
 |------------|-----|------|-----|---|------|----|------|---|------------------|------|-----|--------|------|----|------|---|
-|사용여부|O    |O     |O    |O  |O     |O   |O     |O  |O                 |O     |O    |O       |O     |O   |O     |O  |
+|사용여부|O    |O     |O    |O  |O     |O   |O     |O  |O                 |O     |O    |O       |O     |O   |O, but 오류발생     |O  |
 
